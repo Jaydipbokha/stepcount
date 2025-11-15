@@ -1,0 +1,1 @@
+enum StepSource { pedometer, health }
