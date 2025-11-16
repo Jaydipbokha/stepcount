@@ -7,7 +7,7 @@ import 'package:stepcount/models/step_record.dart';
 import 'package:stepcount/models/step_source.dart';
 
 class HomeScreen extends StatelessWidget {
-  final int stepGoal = 10000;
+  final int stepGoal = 1000;
 
   const HomeScreen({super.key});
 
@@ -261,7 +261,7 @@ class HomeScreen extends StatelessWidget {
   }
 
   Widget _buildStepRecordItem(StepRecord record) {
-    final dateFormat = DateFormat('MMM dd, yyyy HH:mm');
+    final dateFormat = DateFormat('MMM dd, yyyy HH:mm:ss');
 
     return Card(
       margin: const EdgeInsets.only(bottom: 8),
