@@ -36,7 +36,7 @@ class RefreshStepRecords extends StepEvent {}
 class UpdateStepCount extends StepEvent {
   final int steps;
 
-  const UpdateStepCount(this.steps);
+   UpdateStepCount(this.steps);
 
   @override
   List<Object> get props => [steps];
@@ -45,7 +45,7 @@ class UpdateStepCount extends StepEvent {
 class UpdateStepSource extends StepEvent {
   final StepSource source;
 
-  const UpdateStepSource(this.source);
+   UpdateStepSource(this.source);
 
   @override
   List<Object> get props => [source];
@@ -54,7 +54,7 @@ class UpdateStepSource extends StepEvent {
 class UpdateStepRecords extends StepEvent {
   final List<StepRecord> records;
 
-  const UpdateStepRecords(this.records);
+   UpdateStepRecords(this.records);
 
   @override
   List<Object> get props => [records];
